@@ -1,0 +1,53 @@
+2026-04-14 16:26:18,474 - INFO - Data creation notebook started
+2026-04-14 16:26:24,398 - INFO - CSV loaded successfully from data folder
+2026-04-14 16:26:27,489 - ERROR - Failed to load CSV: [Errno 2] No such file or directory: 'Loan_default.csv'
+2026-04-14 16:28:11,632 - INFO - Missing value check complete: 0 total missing values
+2026-04-14 16:28:21,655 - INFO - All validation checks passed
+2026-04-14 16:32:51,850 - INFO - MongoDB connection established successfully
+2026-04-14 16:35:38,333 - INFO - MongoDB connection established successfully
+2026-04-14 16:36:00,346 - INFO - Existing collection dropped before fresh insert
+2026-04-14 16:36:05,561 - ERROR - Insert failed: ac-gpf9eyh-shard-00-02.jjlbwwg.mongodb.net:27017: (32, 'EPIPE') (configured timeouts: connectTimeoutMS: 20000.0ms)
+2026-04-14 16:36:52,946 - INFO - Existing collection dropped before fresh insert
+2026-04-14 16:46:44,835 - INFO - Inserted 255347 documents into loan_default collection
+2026-04-15 16:29:04,136 - INFO - Notebook started
+2026-04-15 16:29:05,045 - INFO - CSV loaded successfully with 255347 rows and 18 columns
+2026-04-15 16:29:05,358 - INFO - Missing value check complete: 0 total missing values
+2026-04-15 16:29:07,505 - INFO - All transformations applied successfully
+2026-04-15 16:29:08,759 - INFO - D1 validation passed
+2026-04-15 16:29:09,397 - INFO - MongoDB connection established successfully
+2026-04-15 16:29:09,421 - INFO - Existing collection dropped before fresh insert
+2026-04-15 16:34:12,484 - INFO - Notebook started
+2026-04-15 16:34:13,178 - INFO - CSV loaded successfully with 255347 rows and 18 columns
+2026-04-15 16:34:13,434 - INFO - Missing value check complete: 0 total missing values
+2026-04-15 16:34:14,184 - INFO - All transformations applied successfully
+2026-04-15 16:34:14,514 - INFO - D1 validation passed
+2026-04-15 16:34:14,796 - INFO - MongoDB connection established successfully
+2026-04-15 16:34:14,825 - INFO - Existing collection dropped before fresh insert
+2026-04-15 16:45:23,099 - INFO - Inserted 255347 D1 documents into loan_default collection
+2026-04-15 16:45:23,550 - INFO - Verification complete: 255347 documents in collection
+2026-04-15 16:45:37,959 - INFO - Successfully queried 255347 documents from MongoDB
+2026-04-15 16:45:39,365 - INFO - Data preparation complete — all categorical columns encoded
+2026-04-15 16:45:39,522 - INFO - Train/test split: 204277 train, 51070 test
+2026-04-15 16:46:17,294 - INFO - Random Forest model trained successfully
+2026-04-15 16:46:20,236 - INFO - ROC-AUC Score: 0.7355
+2026-04-15 16:46:21,689 - INFO - Feature importance visualization saved
+2026-04-16 14:34:49,912 - INFO - Feature importance visualization saved
+2026-04-20 18:16:37,168 - INFO - Notebook started
+2026-04-20 18:16:37,666 - INFO - CSV loaded successfully with 255347 rows and 18 columns
+2026-04-20 18:16:37,907 - INFO - Missing value check complete: 0 total missing values
+2026-04-20 18:16:38,695 - INFO - All transformations applied successfully
+2026-04-20 18:16:38,889 - INFO - D1 validation passed
+2026-04-20 18:16:39,773 - INFO - MongoDB connection established successfully
+2026-04-20 18:16:39,812 - INFO - Existing collection dropped before fresh insert
+2026-04-20 18:28:38,844 - INFO - Inserted 255347 D1 documents into loan_default collection
+2026-04-20 18:28:39,036 - INFO - Verification complete: 255347 documents in collection
+2026-04-20 18:28:47,286 - INFO - Successfully queried 255347 documents from MongoDB
+2026-04-20 18:28:48,517 - INFO - Data preparation complete — all categorical columns encoded
+2026-04-20 18:28:48,691 - INFO - Train/test split: 204277 train, 51070 test
+2026-04-20 18:29:26,070 - INFO - Random Forest model trained successfully
+2026-04-20 18:29:28,929 - INFO - ROC-AUC Score: 0.7355
+2026-04-20 18:29:34,896 - INFO - Default risk scores generated successfully
+2026-04-20 19:14:13,715 - ERROR - Failed to save risk scores to MongoDB: operation exceeded time limit, full error: {'writeConcernError': {'code': 50, 'codeName': 'MaxTimeMSExpired', 'errmsg': 'operation exceeded time limit', 'errInfo': {'writeConcern': {'w': 'majority', 'wtimeout': 0, 'provenance': 'customDefault'}}}, 'ok': 0.0, 'errmsg': 'operation exceeded time limit', 'code': 50, 'codeName': 'MaxTimeMSExpired', '$clusterTime': {'clusterTime': Timestamp(1776726853, 26), 'signature': {'hash': b'w3\x9a\x06\xb2M\x9f\xb6%\x12\xc9\xd5q\xb4?\xd0C]\xb3(', 'keyId': 7592249427562070021}}, 'operationTime': Timestamp(1776726853, 26)}
+2026-04-20 20:29:13,950 - INFO - Feature importance visualization saved
+2026-04-20 20:29:58,939 - INFO - Feature importance visualization saved
+2026-04-20 20:30:03,374 - INFO - Risk score distribution visualization saved
