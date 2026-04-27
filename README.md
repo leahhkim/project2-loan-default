@@ -11,8 +11,7 @@ This repository presents a data science project focused on analyzing borrower fi
 | NetID          | sxk2eh |
 | DOI            | [https://doi.org/10.5281/zenodo.19355541](https://doi.org/10.5281/zenodo.19355541) |
 | Press Release  | [Identifying Default Risk Earlier Could Help Lenders Make Better Loan Decisions](press-release/press_release.md)  |
-| Data           | [Link to data folder](https://myuva-my.sharepoint.com/:f:/g/personal/sxk2eh_virginia_edu/IgAsD5kURxZAQrhBUOhVSO1TAUpJ-jHaiOW6kVrLLTkeywg?e=nCollH) |
-| Pipeline       | [data_creation.ipynb](https://github.com/leahhkim/project1-sports-outcomes/blob/main/data_creation/data_creation.ipynb), [data_creation.py](https://github.com/leahhkim/project1-sports-outcomes/blob/main/data_creation/data_creation.py), [data_creation.md](https://github.com/leahhkim/project1-sports-outcomes/blob/main/data_creation/data_creation.md)
+| Pipeline       | [data_creation.ipynb](https://github.com/leahhkim/project2-loan-default/blob/main/data_creation/data_creation.ipynb), [data_creation.md](https://github.com/leahhkim/project1-sports-outcomes/blob/main/data_creation/data_creation.md)
  | License        | [MIT](LICENSE) |
 
 ## Problem Definition
@@ -20,11 +19,11 @@ This repository presents a data science project focused on analyzing borrower fi
 * **General Problem:** "Predicting loan default risk."
 * **Specific Problem:** "It is often difficult for lenders to know in advance which borrowers are more likely to miss payments or default on a loan. I want to explore how applicant financial information and past repayment behavior can be used to predict default risk and develop a default risk score that estimates how likely a borrower is to default."
 
-### Rationale
-I refined the general problem by focusing on a borrower’s default risk score rather than only a yes-or-no default prediction. Predicting loan default can be difficult, even when a lender has access to financial background and repayment history. Instead of simply classifying borrowers as likely to default or not, a default risk score provides a more useful way to show how likely a borrower is to default based on past behavior and financial characteristics. This allows the project to better capture the uncertainty of lending decisions while still making it possible to analyze which factors may contribute most to default risk.
-
 ### Motivation
 Loan default risk is an important problem because lenders have to decide whether a borrower is likely to repay a loan before approving it. This can be difficult because borrowers may look similar at first, but their payment behavior and financial history can lead to very different outcomes. I chose this project because it is a real-world problem where data can help reveal patterns that are not obvious right away. By studying loan default risk, I can explore how borrower information may be used to support better lending decisions and reduce uncertainty.
+
+### Rationale
+I refined the general problem by focusing on a borrower’s default risk score rather than only a yes-or-no default prediction. Predicting loan default can be difficult, even when a lender has access to financial background and repayment history. Instead of simply classifying borrowers as likely to default or not, a default risk score provides a more useful way to show how likely a borrower is to default based on past behavior and financial characteristics. This allows the project to better capture the uncertainty of lending decisions while still making it possible to analyze which factors may contribute most to default risk.
 
 ### Press Release Headline and Link (click to view)
 [Identifying Default Risk Earlier Could Help Lenders Make Better Loan Decisions](press-release/press_release.md) 
