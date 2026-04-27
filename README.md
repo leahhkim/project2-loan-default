@@ -9,7 +9,7 @@ This repository presents a data science project focused on analyzing borrower fi
 |----------------|-------|
 | Name           | Leah Kim |
 | NetID          | sxk2eh |
-| DOI            | [https://doi.org/10.5281/zenodo.19355541](https://doi.org/10.5281/zenodo.19355541) |
+| DOI            | [https://doi.org/10.5281/zenodo.19829478](https://doi.org/10.5281/zenodo.19829478) |
 | Press Release  | [Identifying Default Risk Earlier Could Help Lenders Make Better Loan Decisions](press-release/press_release.md)  |
 | Pipeline       | [data_creation.ipynb](https://github.com/leahhkim/project2-loan-default/blob/main/data_creation/data_creation.ipynb), [data_creation.md](https://github.com/leahhkim/project2-loan-default/blob/main/data_creation/data_creation.md)
  | License        | [MIT](LICENSE) |
