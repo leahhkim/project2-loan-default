@@ -1103,15 +1103,6 @@ print(df_model[['default_risk_score']].head(10))
 
 ## 13. Visualization
 
-**Visualization Rationale:**
-I chose a feature importance chart because it directly addresses the core
-research question of which borrower characteristics are the strongest
-predictors of default risk. By ranking each feature by its contribution
-to the model, this chart makes the results immediately interpretable for
-a lender who wants to understand what drives default behavior. It also
-shows whether the new derived features from D1 (such as credit_tier,
-debt_burden, and risk_flag) add predictive value beyond the original fields. I also chose a histogram with risk zone shading because it shows the full distribution of model-predicted default scores across all borrowers in an intuitive, operationally meaningful way. The color-coded regions and threshold lines at 0.33 and 0.66 let a lender immediately see what share of applicants fall into each risk tier without needing to interpret raw probabilities. The bimodal pattern also validates that the model is meaningfully separating low- and high-risk borrowers rather than producing undifferentiated scores.
-
 
 ```python
 # Set publication quality style
@@ -1180,6 +1171,9 @@ logging.info('Risk score distribution visualization saved')
 ![png](data_creation_files/data_creation_41_0.png)
     
 
+
+**Visualization Rationale:**
+I chose a feature importance chart because it directly addresses the core research question of which borrower characteristics are the strongest predictors of default risk. By ranking each feature by its contribution to the model, this chart makes the results immediately interpretable for a lender who wants to understand what drives default behavior. It also shows whether the new derived features from D1 (such as credit_tier, debt_burden, and risk_flag) add predictive value beyond the original fields. I also chose a histogram with risk zone shading because it shows the full distribution of model-predicted default scores across all borrowers in an intuitive, operationally meaningful way. The color-coded regions and threshold lines at 0.33 and 0.66 let a lender immediately see what share of applicants fall into each risk tier without needing to interpret raw probabilities. The bimodal pattern also validates that the model is meaningfully separating low- and high-risk borrowers rather than producing undifferentiated scores.
 
 ## 14. Summary
 
