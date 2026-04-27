@@ -70,7 +70,7 @@ After downloading the dataset as a CSV file from Kaggle, I reviewed the availabl
 | File | Description | Link |
 |------|-------------|------|
 | `data/Loan_default.csv` | Raw loan applicant dataset downloaded from Kaggle containing 255,347 borrower records with financial and repayment history features | [Loan_default.csv](https://github.com/leahhkim/project2-loan-default/blob/main/data/Loan_default.csv) |
-| `data_creation/data_creation.ipynb` | Python notebook that reads the raw CSV and inserts all 255,347 records into MongoDB Atlas under the `loan_default` collection | [data_creation.ipynb](https://github.com/leahhkim/project2-loan-default/blob/main/data_creation/data_creation%20(3).ipynb) |
+| `data_creation/data_creation.ipynb` | Python notebook that reads the raw CSV and inserts all 255,347 records into MongoDB Atlas under the `loan_default` collection | [data_creation.ipynb](https://github.com/leahhkim/project2-loan-default/blob/main/data_creation/data_creation.ipynb) |
 
 ### Rationale for Critical Decisions
 
